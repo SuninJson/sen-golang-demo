@@ -28,4 +28,19 @@ func main() {
 		" demo01_hello" + " world2" +
 		" demo01_hello" + " world3"
 	fmt.Println(str3)
+
+	//基本数据类型转String
+	var str string
+
+	var num1 int = 99
+	str = fmt.Sprintf("%d", num1)
+	fmt.Printf("str type %T str=%q \n", str, str)
+
+	var num2 float64 = 3.14
+	str = fmt.Sprintf("%f", num2)
+	fmt.Printf("str type %T str=%q \n", str, str)
+
+	var b bool = true
+	str = fmt.Sprintf("%t", b)
+	fmt.Printf("str type %T str=%q \n", str, str)
 }
