@@ -22,4 +22,9 @@ func main() {
 	var num1 int64 = 9999999
 	var num2 int8 = int8(num1)
 	fmt.Println("num2=", num2)
+
+	//uint是无符号位数，所以-1为2的64次方减一
+	var num3 uint = 1
+	var num4 uint = 2
+	fmt.Printf("uint 1 - uint 2 = %v",num3-num4)
 }

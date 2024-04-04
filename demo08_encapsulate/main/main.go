@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"sen-golang-demo/encapsulate/model"
+	"sen-golang-demo/demo08_encapsulate/model"
 )
 
 func main() {
